@@ -1,9 +1,15 @@
 {
   "devDependencies": {
+    "del": "^6.1.1",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
     "gulp-cssmin": "^0.2.0",
+    "gulp-include": "^2.4.1",
     "gulp-less": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.69.5"
   },
   "name": "house-care",
@@ -13,5 +19,8 @@
   },
   "author": "Aleksandr Gusev <inkowl94@gmail.com>",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "wow.js": "^1.2.2"
+  }
 }

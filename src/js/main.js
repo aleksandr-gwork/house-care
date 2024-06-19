@@ -1,7 +1,4 @@
 
-
-
-
 $(document).ready(function () {
     $(window).scroll(() => {
         $(window).scrollTop() > 0 ?
@@ -182,7 +179,7 @@ $(document).ready(function () {
             loader.css('display', 'flex');
             $.ajax({
                 method: "POST",
-                url: "https://testologia.site/checkout",
+                url: "https://testologia.ru/checkout",
                 data: { name: nameInput.val(), phone: phoneInput.val() }
             })
                 .done(function (msg) {
